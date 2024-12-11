@@ -17,5 +17,5 @@
 
 Byte code is not machine code.
 - It is a python specific interpretation.
-- cpython(Standard Implementation), jpython, IronPython, Stackless(For working in concurrency), PyPy(for performance)
+- cpython(Standard Implementation), jpython, IronPython, Stackless(For working in concurrency),PyPy(for performance)
 
