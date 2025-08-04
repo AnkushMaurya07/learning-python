@@ -19,3 +19,25 @@ Byte code is not machine code.
 - It is a python specific interpretation.
 - cpython(Standard Implementation), jpython(java ki binaries ke sath), IronPython, Stackless(For working in concurrency),PyPy(for performance)
 
+
+
+
+#Mutable and Immutable Objects
+- String
+  - Immutable  in nature
+
+
+Python inner working :
+- Every reference is created in the python is an object. 
+- the reference created by the varialble is immutable.
+Eg: username = "Ankush"
+   print(username) #Ankush
+   username = "Maurya"
+   print(username) #Ankush
+
+   So immutable means the address to which the object is assigned to will not change but the values of the varialble can changes yet if accessed will point to the initial value defined by the variable.
+   The garbage collector then remove the unpointed references and deletes them which were taking free space in the memory.
+
+
+These mutable data types can be changed when changing the value of the variables.
+
